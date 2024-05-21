@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title>Program 3</title>
+  </head>
+  <body>  
+     <script>
+       const numbers = [1, 2, 3, 4, 5];
+       
+      //  Use the slice() method to create a new array containing the elements from index 1 to index 3 (inclusive).
+      const slicedArray = numbers.slice(1, 4);
+
+    // Use the splice() method to remove the element at index 2 and insert the number 10 in its place.
+    numbers.splice(2, 1, 10); // replace one number at index 2 with the number 10 
+
+    console.log(numbers); // Output: [1, 2, 10, 4, 5]
+
+    // How can you find the index of number 4 in numbers array.
+    const index = numbers.indexOf(4);
+    console.log(index); // Output: 5
+
+// --------------------------------------------------------
+
+    // Given that another arr = [6,7,8], How will you add ‘arr’ array elements to numbers array
+       // const numbers = [1, 2, 3, 4, 5];
+        // const arr = [6, 7, 8];
+
+        // const newArray = numbers.concat(arr);
+        // console.log(newArray); // Output: [1, 2, 3, 4, 5, 6, 7, 8]
+
+// --------------------------------------------------------
+
+        // How can you find the length of an array?      
+        console.log(numbers.length); // Output: 5
+// --------------------------------------------------------
+
+
+        const fruits = ['apple', 'banana', 'cherry', 'date'];
+// Use the splice() method to remove the last two elements from the fruits array. 
+          fruits.splice(-2, 2);
+          console.log(fruits); // Output: ['apple', 'banana']
+
+
+</script>
+</body>
+</html>
+const numbers = [1, 2, 3, 4, 5];
+Use the slice() method to create a new array containing the elements from index 1 to index 3
+(inclusive).
+Use the splice() method to remove the element at index 2 and insert the number 10 in its place.
+How can you find the index of number 4 in numbers array.
+Given that another arr = [6,7,8], How will you add ‘arr’ array elements to numbers array.
+How can you find the length of an array?

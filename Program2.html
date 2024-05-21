@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Program 2</title>
+  </head>
+  <body>  
+     <script>
+       const car = {
+        make: 'Toyota',
+        model: 'Camry',
+        year: 2020,
+        drive: function() {
+          return 'Driving a ' + this.make + ' ' + this.model;
+        },
+        setYear: function(newYear) {
+          this.year = newYear;
+        }
+   };
+
+//  Change the year of the car to 2022 using the setYear() method.
+
+car.setYear(2022);
+console.log(car.year); // Output: 2022
+
+
+// Write a code snippet to drive the car using the drive() method
+
+
+console.log(car.drive()); // Output: 'Driving a Toyota Camry'
+
+</script>
+</body>
+</html>
